@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body .container {
+  position: relative;
+  background-color: #17B1D7;
+  width: 48vw;
+  height: 36.5vw;
+}
+
+body .container .title {
+  width: 80%;
+  margin-left: 10%;
+}
+
+body .container .containerbotton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .container .containerbotton .leftimg {
+  width: 22.3vw;
+  height: auto;
+  margin-top: -3vw;
+}
+
+body .container .containerbotton .right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .containerbotton .right .like {
+  margin-top: 5vw;
+  width: 19vw;
+}
+
+body .container .containerbotton .right .socialmedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .containerbotton .right .socialmedia .logos {
+  width: 5vw;
+  margin-right: 1vw;
+  margin-top: 1vw;
+}
+
+body .container .containerbotton .right .estagiologo {
+  width: 12vw;
+  margin-top: 4vw;
+}
+
+body .frame {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  top: 18vw;
+  left: 25.5vw;
+  opacity: 0;
+}
+/*# sourceMappingURL=style.css.map */
