@@ -7,7 +7,7 @@ body .container {
   position: relative;
   background-color: #17B1D7;
   width: 48vw;
-  height: 36.5vw;
+  height: 38vw;
 }
 
 body .container .title {
@@ -74,12 +74,69 @@ body .container .containerbotton .right .estagiologo {
   margin-top: 4vw;
 }
 
-body .frame {
-  position: absolute;
-  width: 5vw;
-  height: 5vw;
-  top: 18vw;
-  left: 25.5vw;
-  opacity: 0;
+@media screen and (max-width: 600px) {
+  body .container {
+    position: relative;
+    background-color: #17B1D7;
+    width: 90%;
+    height: 70vw;
+    margin: 0 auto;
+  }
+  body .container .title {
+    width: 80%;
+    margin-left: 10%;
+  }
+  body .container .containerbotton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body .container .containerbotton .leftimg {
+    width: 40vw;
+    height: auto;
+    margin-top: -3vw;
+  }
+  body .container .containerbotton .right {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .container .containerbotton .right .like {
+    margin-top: 10vw;
+    width: 35vw;
+  }
+  body .container .containerbotton .right .socialmedia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .container .containerbotton .right .socialmedia .logos {
+    width: 11vw;
+    margin-right: 2vw;
+    margin-top: 2vw;
+  }
+  body .container .containerbotton .right .estagiologo {
+    width: 24vw;
+    margin-top: 4vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,12 +3,13 @@
     padding: 0px;
     }
 
+    
 body{
     .container {
         position: relative;
         background-color:#17B1D7;
         width: 48vw;
-        height: 36.5vw;
+        height: 38vw;
         
 
         .title {
@@ -65,17 +66,77 @@ body{
         }
     }
 
-    .frame{
-        position: absolute;
-        width:5vw;
-        height: 5vw;
-        top: 18vw;
-        left: 25.5vw;
-        opacity: 0;
-       
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+      
+body{
+    .container {
+        position: relative;
+        background-color:#17B1D7;
+        width: 90%;
+        height: 70vw;
+        margin: 0 auto;
         
+
+        .title {
+            width: 80%;
+            margin-left: 10%;
+            
+
+        }
+
+        .containerbotton {
+            display: flex;
+            flex-direction: row;
+
+                .leftimg{
+                    width: 40vw;
+                    height: auto;
+                    margin-top: -3vw;
+                }
+
+                .right{
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                   
+
+                    .like {
+                        margin-top: 10vw;
+                        width: 35vw;
+
+                    }
+                    .socialmedia {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+
+                        
+                        .logos{
+                            width: 11vw;
+                            margin-right: 2vw;
+                            margin-top: 2vw;
+                        }
+                    }
+
+                    .estagiologo {
+                        width: 24vw;
+                        margin-top: 4vw;
+                        
+                    }
+
+
+
+                }
+        }
     }
 
-
+}
 
 }
